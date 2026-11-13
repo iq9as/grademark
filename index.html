@@ -7018,6 +7018,7 @@
         // تشغيل التطبيق عند اكتمال تحميل الصفحة
         document.addEventListener('DOMContentLoaded', () => {
             app.init();
+            app.initFirebaseAuthListener(); // السطر السحري الذي سيصطاد تسجيل الدخول!
         });
     </script>
 </body>
